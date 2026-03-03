@@ -1,0 +1,24 @@
+# MAE - Masked Autoencoder Requirements
+# These are pre-installed on Kaggle, but listed for local development
+
+# Core
+torch>=1.12.0
+torchvision>=0.13.0
+numpy>=1.21.0
+pillow>=8.0.0
+
+# Tensor operations
+einops>=0.4.0
+
+# Visualization
+matplotlib>=3.5.0
+
+# Progress bars
+tqdm>=4.60.0
+
+# Web app deployment
+gradio>=3.0.0
+
+# Optional - for local development
+# jupyter>=1.0.0
+# ipywidgets>=7.6.0
