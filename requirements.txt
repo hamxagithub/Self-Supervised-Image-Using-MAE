@@ -1,22 +1,6 @@
-# MAE - Masked Autoencoder Requirements
-# For Hugging Face Spaces Deployment
-
-# Core PyTorch (CPU version for HF free tier, auto-detects GPU)
 torch>=2.0.0
 torchvision>=0.15.0
-
-# Image processing
-numpy>=1.24.0
-pillow>=9.5.0
-
-# Tensor operations (required for model)
-einops>=0.6.0
-
-# Gradio for web interface
 gradio>=4.0.0
-
-# Visualization (optional, for metrics)
-matplotlib>=3.7.0
-
-# Progress bars
-tqdm>=4.65.0
+einops>=0.7.0
+Pillow>=10.0.0
+numpy>=1.24.0
